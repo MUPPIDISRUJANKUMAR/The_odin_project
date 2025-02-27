@@ -1,0 +1,18 @@
+.third_page {
+  width: 100%;
+  height: 400px;
+  background-color: #e5e7eb;
+}
+.third_page .container {
+  width: 800px;
+  padding: 10% 24% 10%;
+}
+
+.third_page .container span {
+  font-family: light italic;
+  font-size: 30px;
+  color: #1f2937;
+}
+.third_page .author {
+  text-align: right;
+}

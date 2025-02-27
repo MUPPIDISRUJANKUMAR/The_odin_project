@@ -1,0 +1,26 @@
+.sec_page .container {
+  box-sizing: border-box;
+  background-color: #f7fafb;
+}
+.sec_page .sub1 {
+  text-align: center;
+}
+.sec_page .sub2 .web-domain {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.web-domain .domain {
+  width: 300px;
+  height: 420px;
+  border: 2px solid lightblue;
+  border-radius: 1.675rem;
+  background-color: #ffffff;
+  color: #333333;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.domain img {
+  border-top-left-radius: 1.675rem;
+  border-top-right-radius: 1.675rem;
+}

@@ -1,0 +1,25 @@
+.four_pg .container {
+  background-color: #3882f6;
+  color: #d5d9dd;
+  width: 50%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0.5rem;
+}
+.four_pg .text {
+  margin: 10px;
+}
+.four_pg .sign_bt .sign_up {
+  border: 3px solid #d5d9dd;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+  color: #d5d9dd;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  margin-top: 28px;
+}
+.four_pg .sign_up:hover {
+  cursor: pointer;
+}

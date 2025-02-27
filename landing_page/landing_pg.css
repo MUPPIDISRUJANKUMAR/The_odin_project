@@ -1,0 +1,25 @@
+.landing-pg {
+  /* display: flex; */
+  width: 100%;
+  height: 600px;
+  background-color: #1b2e46c3;
+  box-sizing: border-box;
+}
+.landing-pg .container {
+  display: flex;
+}
+.landing-pg .heading {
+  font-family: Roboto;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.landing-pg .content {
+  font-family: Roboto;
+  color: #f9faf8;
+}
+.landing-pg .container {
+  padding: 10%;
+}
+.landing-pg .text {
+  padding: 4%;
+}

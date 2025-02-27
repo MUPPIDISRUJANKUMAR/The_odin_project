@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 10px 0;
+}
+header .link {
+  width: 110px;
+}
+
+header .container,
+.sub_container {
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+}
+.sub_container.one {
+  margin-left: 26%;
+  gap: 10px;
+}
+.one .menu_button {
+  border: 0;
+  background-color: transparent;
+  text-decoration: None;
+  font-size: 0.9375rem;
+  color: #092540;
+  line-height: 1.29;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+.menu_button:hover {
+  color: blue;
+}
+.sub_container.two {
+  margin-left: 22%;
+  gap: 10px;
+  height: 100%;
+}
+
+.two .swui-button--ghost.swui-button--primary {
+  color: #ff7a1a;
+}
+/* .swui-button--ghost:hover {
+  color: #fff;
+  background-color: #ff7a1a;
+} */
+/* .swui-button--ghost span:hover {
+  color: #fff;
+  background-color: #ff7a1a;
+} */
+.two .swui-button--solid.swui-button--primary {
+  background-color: #ff7a1a;
+  color: #fff;
+}
+/* .swui-button--solid:hover {
+  background-color: transparent;
+}
+.swui-button--solid span:hover {
+  color: #ff7a1a;
+  background-color: transparent;
+} */
+.swui-button--flat.swui-button--secondary {
+  color: #092540;
+}
+
+.swui-button--ghost {
+  padding: calc(0.75rem-1px) 15px;
+  background-color: transparent;
+  border: 1px solid;
+}
+.swui-button--flat {
+  background-color: transparent;
+}
+
+.swui-button {
+  /* box-sizing: border-box; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.625rem;
+  font-family: "DM Sans", "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.03rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  height: 40px;
+  width: 128px;
+}
+
+.sub_container.two .box {
+  /* border: 4px solid orange;  use for debugging*/
+  width: 128px;
+  height: 40px;
+}
+
+/* footer */
+footer {
+  height: 28px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
